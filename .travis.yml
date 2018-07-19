@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ezV8r2p/PzX/bSTAShChuQngvyIm40qyaHspI/JeeH5/vc3cZCnodCwAHbW4SwCtQDJkZVIPd9iHQzvdEkgracQmN0s926vX+VopWD1mmgRhUsg3tSOnlxBDAHQyvk17cyWPd6WHTdf25SYjlsDpANZMvSn24yGvmg4Lkx3NWTi1JuF/PNl5U9hA77tynY0VxeX0W/JMXgQRJj3ouSUYZz4D17MLLMUJdULuSZMH2qRPssD2lbm7rWReNvNEhiXoblejBGIZLsOGJ4KP+d+6tIiIWTJP7W59qjyY5TKWUuhecjMkNon6B3blcmL3JBQpxgWEfHi3YoJBw8E0fW2qIXOeTK0TFw1SnJm5cmN+CQnP0m2D/Vou+PQRR1jDc9pOu3AfnlsRZypFb6zc19010rezIGJDWa/hTbQea02CPwwVyMBmrqQJyNZP+xtWETORWsIrDw+grFw75sDa1Mku4QFF8OzjIkgX/WJJ1uFSCh8R1SxQ3Q50MrIG7NLUl9MbMzBWeqSvdIs3W/P2PxOw6WqMdfzDeCF0h85+f1c1jM/35S4lMiyiTrK1uuLWsIZkKGGFW2yC94Dmqb83jXvPRNAJsU86R2XU9VdztewaxHcdgWx3owqnTzQjtlUPqS5JH1jr7aVG1pSI7scKY9HIXq3eesCx3oelbdoLUHah+vM=
+  app: blog-app-123456789
+  on:
+    repo: alysebos/blog-app
